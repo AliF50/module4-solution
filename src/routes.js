@@ -30,6 +30,7 @@
             }
         })
 
+        //items state
         .state('items', {
             url: '/items/{category}',
             templateUrl: 'src/menuapp/templates/items.template.html',
